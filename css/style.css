@@ -158,13 +158,12 @@ footer a{
 .second-section-seminar1{
   width: 50%;
   margin: auto;
-  
   padding: 20px;
 }
 .second-section-seminar1 p{
   font-size: 1.5rem;
-  line-height: 1.8em;
-  letter-spacing: 0.2rem;
+  line-height: 2em;
+  color: dimgrey;
 }
 /*SEMINAR2*/
 .first-section-seminar2{
@@ -187,10 +186,30 @@ footer a{
 
 .second-section-seminar2 p{
   font-size: 1.5rem;
-  line-height: 1.8em;
-  letter-spacing: 0.2em;
+  line-height: 2em;
+  color: dimgrey;
+} 
+/*TEAM SERVICE*/
+.team_service{
+  width: 100%;
+  height: 100vw;
+  text-align: center;
+  background-color:beige;
 }
-
+/*POLITIK*/
+.politic{
+  width: 100%;
+  height: 100vw;
+  text-align: center;
+  background-color:beige;
+}
+/*REPORT*/
+.report{
+  width: 100%;
+  height: 100vw;
+  text-align: center;
+  background-color:beige;
+}
 /*ESPONSIVE*/
 
 @media (max-width:1000px) {
@@ -223,6 +242,18 @@ footer a{
   .circles_text p{
     width: 90%;
   }
+   /*SEMINAR 1 RESPONSIVE*/
+   .second-section-seminar1{
+    width: 100%;
+    text-align: center;
+    
+  }
+   /*SEMINAR 2 RESPONSIVE*/
+   .second-section-seminar2{
+    width: 100%;
+    text-align: center;
+    
+  }
 }
 @media  (max-width:900px) {
   .header-content{
@@ -232,7 +263,18 @@ footer a{
   .circles img{
     width: 50%;
   }
-  
+  /*SEMINAR 1 RESPONSIVE*/
+  .second-section-seminar1{
+    width: 100%;
+    text-align: center;
+    
+  }
+   /*SEMINAR 2 RESPONSIVE*/
+   .second-section-seminar2{
+    width: 100%;
+    text-align: center;
+    
+  }
 }
 
 @media (max-width:500px) {
@@ -255,19 +297,19 @@ footer a{
   }
 
   /*SEMINAR 1 RESPONSIVE*/
-.second-section-seminar1{
-  width: 100%;
-  text-align: center;
-  line-height: 1em;
-  letter-spacing: 0.1em;
-}
+  .second-section-seminar1 p{
+    width: 100%;
+    font-size: 1.4rem;
+    line-height: 1.2em;
+    letter-spacing: 0.05em;
+  }
 
   /*SEMINAR 2 RESPONSIVE*/
-  .second-section-seminar2{
+  .second-section-seminar2 p{
     width: 100%;
-    text-align: center;
-    line-height: 1em;
-   letter-spacing: 0.1em;
+    font-size: 1.4rem;
+    line-height: 1.2em;
+    letter-spacing: 0.05em;
   }
   
 }
