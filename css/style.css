@@ -1,3 +1,5 @@
+
+
 *{
   margin: 0;
   padding: 0;
@@ -25,6 +27,7 @@
   font-size: 7em;
   color: antiquewhite;
 }
+
 .header-content p{
   color: antiquewhite;
   font-size: 2em;
@@ -111,6 +114,7 @@ hr{
   flex-direction: column;
   text-align: center;
   gap: 30px;
+  padding-top: 20px;
 }
 .fifth-section a{
   padding-bottom: 20px;
@@ -137,6 +141,54 @@ footer a{
   color: antiquewhite;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+/*SEMINAR1*/
+.first-section-seminar1{
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+.first-section-seminar1 h1{
+    font-size: 3em;
+    color: dimgrey;
+}
+.first-section-seminar1 i{
+  font-size: 2rem;
+}
+.second-section-seminar1{
+  width: 50%;
+  margin: auto;
+  
+  padding: 20px;
+}
+.second-section-seminar1 p{
+  font-size: 1.5rem;
+  line-height: 1.8em;
+  letter-spacing: 0.2rem;
+}
+/*SEMINAR2*/
+.first-section-seminar2{
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+.first-section-seminar2 i{
+  font-size: 2rem;
+}
+.first-section-seminar2 h1{
+  font-size: 3em;
+  color: dimgrey;
+}
+.second-section-seminar2{
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+
+.second-section-seminar2 p{
+  font-size: 1.5rem;
+  line-height: 1.8em;
+  letter-spacing: 0.2em;
 }
 
 /*ESPONSIVE*/
@@ -200,6 +252,22 @@ footer a{
   footer{
     flex-direction: column;
     text-align: center;
+  }
+
+  /*SEMINAR 1 RESPONSIVE*/
+.second-section-seminar1{
+  width: 100%;
+  text-align: center;
+  line-height: 1em;
+  letter-spacing: 0.1em;
+}
+
+  /*SEMINAR 2 RESPONSIVE*/
+  .second-section-seminar2{
+    width: 100%;
+    text-align: center;
+    line-height: 1em;
+   letter-spacing: 0.1em;
   }
   
 }
