@@ -129,7 +129,7 @@ hr{
 footer{
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  
   background-color: dimgray;
   width: 100%;
   padding-top: 30px;
@@ -210,6 +210,76 @@ footer a{
   text-align: center;
   background-color:beige;
 }
+/*ANMELDUNG-FORMULAR*/
+.formular_title{
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+  color: dimgrey;
+  margin-top: 30px;
+}
+.formular_title i{
+  font-size: 2rem;
+}
+.container_form{
+  width: 40%;
+  margin: auto;
+  padding: 10px;
+  background-color: dimgray;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+.container_form form{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container_form form div{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.container_form form div input{
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+}
+.container_form form div select{
+  width: 100%;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 4px;
+}
+.container_form form div label{
+  color: white;
+  font-size: 1.5rem;
+}
+.container_form form .checkbox{
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1rem;
+}
+.container_form form .checkbox label{
+  font-size: 1rem;
+}
+.container_form form .buttons{
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container_form form .buttons button{
+  width: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+
 /*ESPONSIVE*/
 
 @media (max-width:1000px) {
@@ -272,8 +342,11 @@ footer a{
    /*SEMINAR 2 RESPONSIVE*/
    .second-section-seminar2{
     width: 100%;
-    text-align: center;
-    
+    text-align: center; 
+  }
+  /*FORMULAR*/
+  .container_form{
+    width: 90%;
   }
 }
 
@@ -310,6 +383,10 @@ footer a{
     font-size: 1.4rem;
     line-height: 1.2em;
     letter-spacing: 0.05em;
+  }
+  /*FORMULAR*/
+  .container_form{
+    width: 100%;
   }
   
 }
