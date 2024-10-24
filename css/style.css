@@ -242,7 +242,7 @@ footer a{
   margin-bottom: 10px;
 }
 .container_form form div input{
-  padding: 5px;
+  padding: 10px;
   border-radius: 4px;
   border: none;
 }
@@ -257,15 +257,20 @@ footer a{
   color: white;
   font-size: 1.5rem;
 }
+form p{
+  color: white;
+}
 .container_form form .checkbox{
   flex-direction: row;
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 1rem;
+  text-align: center;
 }
-.container_form form .checkbox label{
-  font-size: 1rem;
+#formular .checkbox label{
+  font-size: 1em;
+  text-align: center;
 }
 .container_form form .buttons{
   flex-direction: row;
@@ -278,6 +283,22 @@ footer a{
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 5px;
+}
+small{
+  text-align: center;
+  color: rgb(244, 94, 94);
+  visibility: hidden;
+  font-size: 1em;
+  margin: 0px;
+}
+/*.form-control.success input{
+  border-color: #2ecc71;
+}*/
+.form-control.error input{
+  border:3px solid red;
+}
+.form-control.error small{
+  visibility: visible;
 }
 
 /*ESPONSIVE*/

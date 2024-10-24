@@ -17,52 +17,59 @@
     </header>
     <h1 class="formular_title"><i class="fa-solid fa-angles-left"></i>Anmeldung<i class="fa-solid fa-angles-right"></i></h1>
     <div class="container_form">
-        <form action="#" method="POST">
+        <form action="../php/form_back.php" method="GET" id="formular" name="formular">
             <!-- Select de tratamiento -->
             <div>
-                <label for="tratamiento">Tratamiento</label>
-                <select name="tratamiento" id="tratamiento">
-                    <option value="">Seleccione una opción</option>
-                    <option value="senor">Señor</option>
-                    <option value="senora">Señora</option>
-                    <option value="diverso">Diverso</option>
+                <label for="anrede">Anrede</label>
+                <select name="anrede" id="anrede">
+                    <option value="">Wählen Sie eine Option aus</option>
+                    <option value="herr">Herr</option>
+                    <option value="frau">Frau</option>
+                    <option value="divers">Divers</option>
                 </select>
             </div>
             <div>
                 <label for="titel">Titel</label>
                 <select name="titel" id="titel">
                     <option value="">Wählen Sie einen Titel aus</option>
-                    <option value="doctor">Doctor</option>
-                    <option value="ingeniero">Ingeniero</option>
-                    <option value="licenciado">Licenciado</option>
+                    <option value="doktor">Doktor</option>
+                    <option value="ingenieur">Ingenieur</option>
+                    <option value="lizentiat">Lizentiat</option>
+                    <option value="lizentiat">Sonstiges</option>
                 </select>
             </div>    
             <div>
-                <label for="vorname">Vorname</label>
+                <label for="vorname">Vorname *</label>
                 <input type="text" id="vorname" name="vorname">
+                <small>error</small>
             </div>  
             <div>
-                <label for="nachname">Nachname</label>
+                <label for="nachname">Nachname *</label>
                 <input type="text" id="nachname" name="nachname">
+                <small>error</small>
             </div>
             <div>
-                <label for="email">E-mail</label>
+                <label for="email">E-mail *</label>
                 <input type="email" id="email" name="email">
+                <small>error</small>
             </div>
             <div>
-                <label for="confirm_email">E-mail wiederholen</label>
+                <label for="confirm_email">E-mail wiederholen *</label>
                 <input type="email" id="confirm_email" name="confirm_email">
+                <small>error</small>
             </div>
             <div>
                 <label for="firma">Firma</label>
                 <input type="text" id="firma" name="firma">
             </div>
+            <p>( * ) pflichtig.</p>
             <div class="checkbox">
                 <input type="checkbox" id="politik" name="politik">
-                <label for="politik">He leído y acepto la <a href="#">política de privacidad</a>.</label>
+                <small></small>
+                <label for="politik" id="label-politik">Ich habe die<a href="./privacy_politic.html"> "Datenschutz" </a> akzeptire.</label>
             </div>
             <div class="buttons">
-                <button type="submit">Senden</button>
+                <button type="submit" id="btn_senden">Senden</button>
                 <button type="reset">Reset</button>
             </div>
 
@@ -71,13 +78,14 @@
     <hr>
     <div class="fifth-section">
       <a href="../index.html" rel="noopener" target="_self"><i class="fa-solid fa-angle-left"></i> Zum Home </a>
-      <a href="seminar1.html" rel="noopener" target="_self">Zum Seminar 1 <i class="fa-solid fa-angle-right"></i></a>
-      <a href="seminar2.html" rel="noopener" target="_self">Zum Seminar 2 <i class="fa-solid fa-angle-right"></i></a>
+      <a href="seminar1.html" rel="noopener" target="_self"><i class="fa-solid fa-angle-left"></i> Zum Seminar 1</a>
+      <a href="seminar2.html" rel="noopener" target="_self"><i class="fa-solid fa-angle-left"></i> Zum Seminar 2</i></a>
   </div>
     <footer>
       <a href="../views/team_service.html" rel="noopener" >Team of Service</a>
       <a href="../views/privacy_politic.html" rel="noopener">Privacy Politic</a>
       <a href="../views/report.html" rel="noopener">Report Abuse</a>
   </footer>
+  <script src="../js/control_form.js"></script>
   </body>
 </html>
