@@ -284,6 +284,12 @@ form p{
   padding-bottom: 5px;
   border-radius: 5px;
 }
+.echo{
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  color:red;
+}
 small{
   text-align: center;
   color: rgb(244, 94, 94);

@@ -17,12 +17,12 @@
     </header>
     <h1 class="formular_title"><i class="fa-solid fa-angles-left"></i>Anmeldung<i class="fa-solid fa-angles-right"></i></h1>
     <div class="container_form">
-        <form action="../php/form_back.php" method="POST" id="formular" name="formular">
+        <form action="#" method="POST" id="formular" name="formular">
             <!-- Select de tratamiento -->
             <div>
                 <label for="anrede">Anrede</label>
                 <select name="anrede" id="anrede">
-                    <option value="">Wählen Sie eine Option aus</option>
+                    <option value="keine">Wählen Sie eine Option aus</option>
                     <option value="herr">Herr</option>
                     <option value="frau">Frau</option>
                     <option value="divers">Divers</option>
@@ -31,7 +31,7 @@
             <div>
                 <label for="titel">Titel</label>
                 <select name="titel" id="titel">
-                    <option value="">Wählen Sie einen Titel aus</option>
+                    <option value="keine">Wählen Sie einen Titel aus</option>
                     <option value="doktor">Doktor</option>
                     <option value="ingenieur">Ingenieur</option>
                     <option value="lizentiat">Lizentiat</option>
@@ -66,12 +66,13 @@
             <div class="checkbox">
                 <input type="checkbox" id="politik" name="politik">
                 <small></small>
-                <label for="politik" id="label-politik">Ich habe die<a href="./privacy_politic.html"> "Datenschutz" </a> akzeptire.</label>
+                <label for="politik" id="label-politik">Ich habe die<a href="./privacy_politic.html"> "Datenschutz" </a> akzeptiert.</label>
             </div>
             <div class="buttons">
                 <button type="submit" id="btn_senden">Senden</button>
                 <button type="reset">Reset</button>
             </div>
+           
 
         </form>
     </div>

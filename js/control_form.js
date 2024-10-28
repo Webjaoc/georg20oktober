@@ -136,6 +136,7 @@ form.addEventListener("submit", (e)=>{
     }
     
     if(!errorV){
+        //senden.disabled = false;
         form.submit();
     }
 })
