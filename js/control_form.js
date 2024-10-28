@@ -115,8 +115,7 @@ politik.addEventListener("blur",()=>{
     if(!politik.checked){
         validiert.politik = false;
         setErrorFor(politik, "Die politik darf nicht leer sein.");
-        let label = document.getElementById("label-politik");
-        label.style.textAlign = 'center';
+        
     }else{
         validiert.politik = true;
         setSuccessFor(politik);
