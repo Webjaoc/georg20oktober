@@ -264,7 +264,7 @@ form p{
 display: flex; 
 flex-direction: row;
 justify-content: center;
-
+padding-top: 20px;
 }
 .p_politik{
   text-align:center ;
